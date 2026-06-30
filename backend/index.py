@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-import dashboard.api.models as models
+import backend.models as models
 import pandas as pd
 import io
 
