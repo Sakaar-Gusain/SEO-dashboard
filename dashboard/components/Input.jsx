@@ -24,7 +24,7 @@ function Input() {
         setDashboardData(null)
 
         try {
-            const res = await fetch(`${process.env.API_URL}/api/upload`, {
+            const res = await fetch(`${process.env.API_URL}/upload`, {
                 method: "POST",
                 body: formData
             })
